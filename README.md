@@ -116,9 +116,17 @@ npm run dev
 ### 登录页
 ![登录页](docs/screenshots/login.png)
 
-### 首页概览
-管理员登录后的首页，包含轮播图、热门图书、命运之书、心情荐书等模块。
-![首页概览](docs/screenshots/dashboard.png)
+### 首页概览（上部）
+管理员登录后的首页顶部，包含轮播图、今日命运之书、心情配色荐书等模块。
+![首页上部](docs/screenshots/dashboard-1.png)
+
+### 首页概览（中部）
+首页中部，包含天气联动荐书、书摘漂流瓶、热门图书列表（含借阅、购买、收藏按钮）。
+![首页中部](docs/screenshots/dashboard-2.png)
+
+### 首页概览（下部）
+首页底部，包含本月借阅排行榜、按分类筛选、默认排序等区域。
+![首页下部](docs/screenshots/dashboard-3.png)
 
 ### 图书管理
 图书列表，支持搜索、新增、编辑、删除、借阅、收藏等操作。
@@ -132,13 +140,9 @@ npm run dev
 分类盲盒抽奖，随机获得图书惊喜。
 ![图书盲盒](docs/screenshots/blindbox.png)
 
-### 购物车
-购物车结算页面，支持数量调整、地址选择、提交订单。
-![购物车](docs/screenshots/cart.png)
-
-### 我的订单
-订单列表，查看订单状态、支付、确认收货等。
-![我的订单](docs/screenshots/orders.png)
+### 借阅管理
+借阅记录列表，支持借阅、归还、续借，查看借阅历史与预约记录。
+![借阅管理](docs/screenshots/borrows.png)
 
 ### 数据统计
 管理员数据统计看板，销售、借阅、用户等多维度可视化图表。
