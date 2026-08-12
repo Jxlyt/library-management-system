@@ -1,0 +1,33 @@
+import axios from 'axios'
+import { ElMessage } from 'element-plus'
+
+const request = axios.create({
+  baseURL: '/api',
+  timeout: 10000
+})
+
+// 响应拦截器：统一提取 data
+request.interceptors.response.use(
+  response => {
+    const res = response.data
+    if (res.code !== 200) {
+      ElMessage.error(res.message || '请求失败')
+      return Promise.reject(new Error(res.message))
+    }
+    return res
+  },
+  error => {
+    ElMessage.error(error.message || '网络错误')
+    return Promise.reject(error)
+  }
+)
+
+// 登录
+export function login(data) {
+  return request.post('/auth/login', data)
+}
+
+// 注册
+export function register(data) {
+  return request.post('/auth/register', data)
+}
