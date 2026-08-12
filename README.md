@@ -116,17 +116,11 @@ npm run dev
 ### 登录页
 ![登录页](docs/screenshots/login.png)
 
-### 首页概览（上部）
-管理员登录后的首页顶部，包含轮播图、今日命运之书、心情配色荐书等模块。
-![首页上部](docs/screenshots/dashboard-1.png)
-
-### 首页概览（中部）
-首页中部，包含天气联动荐书、书摘漂流瓶、热门图书列表（含借阅、购买、收藏按钮）。
-![首页中部](docs/screenshots/dashboard-2.png)
-
-### 首页概览（下部）
-首页底部，包含本月借阅排行榜、按分类筛选、默认排序等区域。
-![首页下部](docs/screenshots/dashboard-3.png)
+### 首页
+管理员登录后的首页，包含轮播图、命运之书、书摘漂流瓶、热门图书、图书详情等模块。
+![首页](docs/screenshots/dashboard-1.png)
+![首页](docs/screenshots/dashboard-2.png)
+![首页](docs/screenshots/dashboard-3.png)
 
 ### 图书管理
 图书列表，支持搜索、新增、编辑、删除、借阅、收藏等操作。
